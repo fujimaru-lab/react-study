@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
@@ -133,9 +133,24 @@ class Game extends React.Component {
           <div>{status}</div>
           <ol>{moves}</ol>
         </div>
+        <div className="sample-counter">
+          <SampleCounter />
+        </div>
       </div>
     );
   }
+}
+
+const SampleCounter = () => {
+  const [count, setCount] = useState(0);
+  return (
+    <div>
+      <p>You Clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click Me
+      </button>
+    </div>
+  )
 }
 
 // ========================================
