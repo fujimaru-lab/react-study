@@ -1,0 +1,1 @@
+export const AttendanceListURL = process.env.URL_ATTENDANCELIST ? process.env.URL_ATTENDANCELIST : 'https:localhost:9001/attendancelist';

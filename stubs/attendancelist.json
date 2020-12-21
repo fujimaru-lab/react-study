@@ -1,0 +1,61 @@
+{
+  "employee_id": "12345",
+  "employee_name": "Yoshihiro Fujita",
+  "attendances": [
+    {
+      "date": "2020-12-21",
+      "times": [
+        {
+          "start": "09:00",
+          "end": "12:00",
+          "task": "coding"
+        },
+        {
+          "start": "13:00",
+          "end": "",
+          "task": "write docs"
+        }
+      ]
+    },
+    {
+      "date": "2020-12-22",
+      "times": [
+        {
+          "start": "09:00",
+          "end": "18:00",
+          "task": "work 1"
+        }
+      ]
+    },
+    {
+      "date": "2020-12-23",
+      "times": [
+        {
+          "start": "09:00",
+          "end": "18:00",
+          "task": "work 2"
+        }
+      ]
+    },
+    {
+      "date": "2020-12-24",
+      "times": [
+        {
+          "start": "09:00",
+          "end": "18:00",
+          "task": "work 3"
+        }
+      ]
+    },
+    {
+      "date": "2020-12-25",
+      "times": [
+        {
+          "start": "09:00",
+          "end": "18:00",
+          "task": "work 4"
+        }
+      ]
+    }
+  ]
+}
