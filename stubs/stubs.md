@@ -17,3 +17,8 @@
 7. Search for API, edit and save.
 8. Test your mock api by going to browser "http://localhost:9001/test".
 9. Your other routes will work as normal.
+
+## Stub URLの設定
+
+.envファイルを参考にして作成すること  
+例： URL_ATTENDANCELIST=https://localhost:9001/attendancelist
