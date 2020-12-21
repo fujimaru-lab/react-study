@@ -20,7 +20,7 @@ const AttendanceList = () => {
       setAttendanceList(list);
     }
     f();
-  }, [])
+  }, [attendanceList])
   return (
     <div className="AttendanceList">
       <p>{attendanceList.employee_name}</p>
