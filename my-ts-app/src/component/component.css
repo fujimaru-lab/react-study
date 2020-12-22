@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: lightgray;
 }
 
 .AttendanceList {
@@ -8,11 +9,12 @@
 }
 
 .AttendanceTable {
-  border: 1px solid #ccc;
+  border: 1px solid white;
   padding: 10px;
   margin: 10px;
   margin-left: 30px;
   margin-right: 30px;
+  margin-bottom: 30px;
   justify-content:center;
   display: flex;
   font-size: 125%;
